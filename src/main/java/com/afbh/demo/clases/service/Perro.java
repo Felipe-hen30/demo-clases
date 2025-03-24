@@ -2,8 +2,27 @@ package com.afbh.demo.clases.service;
 
 public class Perro {
 
-	private String nombre = "thor";
-	private int peso = 25;
-	private double altura = 0,59;
-	
+	private String nombre;
+	private int peso;
+	private double altura;
+
+	public void setNombre(String parametroNombre) {
+		this.nombre = parametroNombre;
+
+	}
+
+	public String getNombre() {
+		return this.nombre;
+
+	}
+
+	public double getAltura() {
+		return this.altura;
+
+	}
+
+	public void setAltura(double parametroAltura) {
+		this.altura = parametroAltura;
+	}
+
 }
